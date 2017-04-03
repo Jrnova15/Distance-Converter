@@ -1,0 +1,42 @@
+/*Sal DeMarco*/
+body {
+	background-color: black;
+}
+
+form {
+	display: inline-block;
+	float: left;
+	clear: left;
+	text-align: left;
+}
+input {
+	display: inline-block;
+	font-size: 100%;
+}
+
+textarea {
+	
+	resize: none;
+	font-family: "Arial";
+}
+
+select {
+	font-size: 100%;
+}
+#container {
+	background-color: white;
+	padding-left: 15px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 10px;
+	bottom: 10px;
+	width: 340px;
+	height: 250px;
+	border: 2px solid;
+	border-radius: 25px;
+	/*box-shadow: 10px 10px 5px white;*/
+}
+
+h3 {text-align: center;}
